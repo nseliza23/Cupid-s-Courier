@@ -19,13 +19,13 @@ It displays the Player A, Player B, and item of choice sprites. It also has 3 bu
 - Exit Game, which takes you back to the initial screen where the name of the game and the Start button is displayed.
 
 Code overview:
-WelcomeScene - displays the name “Cupid's Courier” and the Start button
-UserScene - prompts you to select the character you want to play with and the character you want to gift
-SelectionScene - prompts you to choose the item you want to gift : flowers,  cookies, or money, as well as lets you select the level of difficulty 
-ResetScene - displays the Player A, Player B, and item of choice sprites, and the final score message; it also has 3 buttons - Play Again, Start Over, and Exit Game
-Background - helper file that has code to create backgrounds easier across different screens
-BGM - AVAudioPlayer code
-ContentView - code to manage scenes + play background music throughout
-PlayerA / PlayerB - SKSpriteNode classes to handle features for the character sprites
-Gift - SKSpriteNode class to handle features for the items to choose from
-Game - the main logic for the game
+- WelcomeScene - displays the name “Cupid's Courier” and the Start button
+- UserScene - prompts you to select the character you want to play with and the character you want to gift
+- SelectionScene - prompts you to choose the item you want to gift : flowers,  cookies, or money, as well as lets you select the level of difficulty 
+- ResetScene - displays the Player A, Player B, and item of choice sprites, and the final score message; it also has 3 buttons - Play Again, Start Over, and Exit Game
+- Background - helper file that has code to create backgrounds easier across different screens
+- BGM - AVAudioPlayer code
+- ContentView - code to manage scenes + play background music throughout
+- PlayerA / PlayerB - SKSpriteNode classes to handle features for the character sprites
+- Gift - SKSpriteNode class to handle features for the items to choose from
+- Game - the main logic for the game
