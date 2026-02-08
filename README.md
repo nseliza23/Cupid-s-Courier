@@ -29,3 +29,5 @@ Code overview:
 - PlayerA / PlayerB - SKSpriteNode classes to handle features for the character sprites
 - Gift - SKSpriteNode class to handle features for the items to choose from
 - Game - the main logic for the game
+
+Demo: https://drive.google.com/file/d/1CXeHZAVacx7lzEamzAPJVw8cWIt-zKxj/view?usp=drive_link
